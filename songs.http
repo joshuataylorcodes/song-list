@@ -6,15 +6,15 @@ Get http://localhost:3000/songs/1.json
 
 ###
 
-# Post http://localhost:3000/songs.json
-# Content-Type: application/json
+Post http://localhost:3000/songs.json
+Content-Type: application/json
 
-# {
-# "name": "Ecco 1's",
-# "price": 25,
-# "image_url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.la-botte.com%2F4DCGI%2Fvoir_us%2Fsoft-7-navy-blue%2Fshoes%2Fmen%2Fsneakers%2Fecco%2F&psig=AOvVaw3lwJYUOW9LdEiKhG1J3OCf&ust=1677872391734000&source=images&cd=vfe&ved=0CBAQjhxqFwoTCKi3j_H_vf0CFQAAAAAdAAAAABAH",
-# "description": "casual shoes that fit with most semiformal and casual outfits" 
-# }
+{
+"title": "Waiting On the World to Change",
+"album": "Continuum",
+"artist": "John Mayer",
+"year": "2006" 
+}
 
 ###
 
@@ -27,4 +27,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/products/1.json
+DELETE http://localhost:3000/songs/1.json

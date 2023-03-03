@@ -29,4 +29,10 @@ class SongsController < ApplicationController
     )
     render :show
   end
+
+  def destroy
+    @song = Song.find_by(id: params[:id])
+    @song.destroy
+    render json: { message: "No Mo Mayer" }
+  end
 end

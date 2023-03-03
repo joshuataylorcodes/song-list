@@ -32,4 +32,11 @@ class SongsControllerTest < ActionDispatch::IntegrationTest
     data = JSON.parse(response.body)
     assert_equal "Updated name", data["title"]
   end
+
+  test "destroy" do
+    assert_difference "Song.count", -1 do
+      delete "/songs/#{Song.first.id}.json"
+      assert_response 200
+    end
+  end
 end
