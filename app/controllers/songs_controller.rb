@@ -18,4 +18,15 @@ class SongsController < ApplicationController
     )
     render :show
   end
+
+  def update
+    @song = Song.find_by(id: params[:id])
+    @song.update(
+      title: params[:title] || @song.title,
+      album: params[:album] || @song.album,
+      artist: params[:artist] || @song.artist,
+      year: params[:year] || @song.year,
+    )
+    render :show
+  end
 end
