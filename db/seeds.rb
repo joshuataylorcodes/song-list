@@ -1,7 +1,12 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+song = Song.create(title: "Waiting on the world to change", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "I don't Trust Myself", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "Belief", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "Gravity", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "The Heart of Life", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "Vultures", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "Stop This Train", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "Slow Dancing in a Burning Room", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "Bold as Love", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "Dreaming with a Broken Heart", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "In Repair", album: "Continuum", artist: "John Mayer", year: 2006)
+song = Song.create(title: "I'm Gonna Find Another You", album: "Continuum", artist: "John Mayer", year: 2006)
